@@ -40,9 +40,11 @@
 
 			function Celsius(){
 							let Far = document.getElementById('american').value;
-							let Cel = Far - 32 * .5556;
+							let Cel1 = Far - 32;
+							let Cel2 = .556;
+							let Cel3 = Cel1 * Cel2;
 
-							window.alert("The Celsius conversion is : " + Cel);
+							window.alert("The Celsius conversion is : " + Cel3);
 							  }
 		</script>
 	</body>
